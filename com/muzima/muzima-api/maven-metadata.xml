@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.muzima</groupId>
-  <artifactId>search-api</artifactId>
+  <artifactId>muzima-api</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130927151307</lastUpdated>
+    <lastUpdated>20131004073233</lastUpdated>
   </versioning>
 </metadata>
