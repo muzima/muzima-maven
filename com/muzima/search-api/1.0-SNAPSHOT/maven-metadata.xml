@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.muzima</groupId>
-  <artifactId>muzima-api</artifactId>
+  <artifactId>search-api</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20131004.073233</timestamp>
+      <timestamp>20131010.093346</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20131004073233</lastUpdated>
+    <lastUpdated>20131010093346</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20131004.073233-1</value>
-        <updated>20131004073233</updated>
+        <value>1.0-20131010.093346-1</value>
+        <updated>20131010093346</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20131004.073233-1</value>
-        <updated>20131004073233</updated>
+        <value>1.0-20131010.093346-1</value>
+        <updated>20131010093346</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

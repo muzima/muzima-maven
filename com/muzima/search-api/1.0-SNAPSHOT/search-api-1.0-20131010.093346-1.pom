@@ -5,14 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.muzima</groupId>
-    <artifactId>muzima-api</artifactId>
+    <artifactId>search-api</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <!--<scm>-->
+        <!--<connection>scm:git:git@github.com:muzima/search-api.git</connection>-->
+        <!--<url>scm:git:git@github.com:muzima/search-api.git</url>-->
+        <!--<developerConnection>scm:git:git@github.com:muzima/search-api.git</developerConnection>-->
+    <!--</scm>-->
 
     <dependencies>
         <dependency>
-            <groupId>com.muzima</groupId>
-            <artifactId>search-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -21,16 +27,52 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-all</artifactId>
-            <version>1.3</version>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject.extensions</groupId>
+            <artifactId>guice-throwingproviders</artifactId>
+            <version>3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>0.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path-assert</artifactId>
+            <version>0.8.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
-            <artifactId>junit-dep</artifactId>
+            <artifactId>junit</artifactId>
             <version>4.9</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>lucene.transform</groupId>
+            <artifactId>lucenetransform</artifactId>
+            <version>0.9.2.2</version>
         </dependency>
     </dependencies>
     <repositories>
@@ -38,12 +80,6 @@
             <id>local-project-libraries-github</id>
             <name>Local project libraries</name>
             <url>https://raw.github.com/muzima/muzima-maven/master/releases</url>
-        </repository>
-        <repository>
-            <id>local-project-libraries-snapshot-github</id>
-            <name>Local project libraries</name>
-            <url>https://raw.github.com/muzima/muzima-maven/snapshots</url>
-            <snapshots/>
         </repository>
     </repositories>
     <build>
@@ -125,6 +161,14 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub ${project.artifactId} Repository</name>
+            <url>https://raw.github.com/muzima/${project.artifactId}/mvn-repo</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <javaCompilerVersion>1.6</javaCompilerVersion>
