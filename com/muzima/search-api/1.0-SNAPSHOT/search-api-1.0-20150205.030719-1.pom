@@ -132,7 +132,7 @@
             <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
-                <version>0.8</version>
+                <version>0.11</version>
                 <configuration>
                     <message>Maven artifacts for ${project.artifactId} ${project.version}</message>
                     <noJekyll>true</noJekyll>
@@ -160,7 +160,7 @@
         <repository>
             <id>github</id>
             <name>GitHub ${project.artifactId} Repository</name>
-            <url>https://raw.github.com/muzima/${project.artifactId}/mvn-repo</url>
+            <url>https://github.com/muzima/search-api/tree/mvn-repo</url>
         </repository>
     </distributionManagement>
 
