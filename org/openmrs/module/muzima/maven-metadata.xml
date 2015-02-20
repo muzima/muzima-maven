@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.openmrs.module</groupId>
-  <artifactId>muzima-omod</artifactId>
+  <artifactId>muzima</artifactId>
   <versioning>
     <versions>
       <version>1.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20150220124452</lastUpdated>
+    <lastUpdated>20150220125044</lastUpdated>
   </versioning>
 </metadata>
