@@ -2,23 +2,23 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.muzima</groupId>
   <artifactId>muzima-api</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20150902.110132</timestamp>
+      <timestamp>20160721.125809</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20150902110132</lastUpdated>
+    <lastUpdated>20160721125809</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20150902.110132-1</value>
-        <updated>20150902110132</updated>
+        <value>1.1-20160721.125809-1</value>
+        <updated>20160721125809</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20150902.110132-1</value>
-        <updated>20150902110132</updated>
+        <value>1.1-20160721.125809-1</value>
+        <updated>20160721125809</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
