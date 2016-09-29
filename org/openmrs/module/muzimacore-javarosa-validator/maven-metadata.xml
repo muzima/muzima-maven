@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.openmrs.module</groupId>
+  <artifactId>muzimacore-javarosa-validator</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160929114110</lastUpdated>
+  </versioning>
+</metadata>
