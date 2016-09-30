@@ -251,7 +251,7 @@
                     <noJekyll>true</noJekyll>
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <branch>refs/heads/openmrs-module-muzimacore</branch>
-                    <!--<merge>true</merge>-->
+                    <merge>true</merge>
                     <includes>
                         <include>**/*</include>
                     </includes>
