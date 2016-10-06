@@ -144,6 +144,20 @@
                     </includes>
                     <repositoryName>muzima-maven</repositoryName>
                     <repositoryOwner>muzima</repositoryOwner>
+                    <executable>java</executable>
+                    <executableDependency>
+                        <groupId>org.sonatype.nexus</groupId>
+                        <artifactId>nexus-indexer</artifactId>
+                    </executableDependency>
+                    <includeProjectDependencies>false</includeProjectDependencies>
+                    <includePluginDependencies>true</includePluginDependencies>
+                    <mainClass>org.sonatype.nexus.index.cli.NexusIndexerCli</mainClass>
+                    <arguments>
+                        <argument>-r</argument>
+                        <argument>../</argument>
+                        <argument>-i</argument>
+                        <argument>.</argument>
+                    </arguments>
                 </configuration>
                 <executions>
                     <execution>
@@ -153,6 +167,16 @@
                         <phase>deploy</phase>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.sonatype.nexus</groupId>
+                        <artifactId>nexus-indexer</artifactId>
+                        <version>3.0.4</version>
+                        <classifier>cli</classifier>
+                    </dependency>
+                </dependencies>
+
+
             </plugin>
         </plugins>
     </build>
