@@ -3,10 +3,10 @@
   <groupId>com.muzima</groupId>
   <artifactId>muzima-api</artifactId>
   <versioning>
-    <release>1.3.5</release>
+    <release>1.3.6</release>
     <versions>
-      <version>1.3.5</version>
+      <version>1.3.6</version>
     </versions>
-    <lastUpdated>20201113055147</lastUpdated>
+    <lastUpdated>20201113061826</lastUpdated>
   </versioning>
 </metadata>
