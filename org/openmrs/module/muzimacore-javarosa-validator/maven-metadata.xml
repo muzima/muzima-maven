@@ -4,8 +4,8 @@
   <artifactId>muzimacore-javarosa-validator</artifactId>
   <versioning>
     <versions>
-      <version>1.6.1-SNAPSHOT</version>
+      <version>1.8.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20201113064825</lastUpdated>
+    <lastUpdated>20210527071353</lastUpdated>
   </versioning>
 </metadata>
