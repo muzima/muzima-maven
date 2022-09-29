@@ -4,8 +4,8 @@
   <artifactId>muzima-api</artifactId>
   <versioning>
     <versions>
-      <version>1.3.18-SNAPSHOT</version>
+      <version>1.3.19-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220824040830</lastUpdated>
+    <lastUpdated>20220929085148</lastUpdated>
   </versioning>
 </metadata>
