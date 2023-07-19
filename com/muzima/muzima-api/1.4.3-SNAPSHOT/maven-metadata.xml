@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.muzima</groupId>
+  <artifactId>muzima-api</artifactId>
+  <version>1.4.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230719.052747</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20230719052747</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.4.3-20230719.052747-1</value>
+        <updated>20230719052747</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.4.3-20230719.052747-1</value>
+        <updated>20230719052747</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
