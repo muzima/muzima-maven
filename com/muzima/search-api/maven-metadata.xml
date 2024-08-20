@@ -4,8 +4,8 @@
   <artifactId>search-api</artifactId>
   <versioning>
     <versions>
-      <version>1.1.6-SNAPSHOT</version>
+      <version>1.1.7-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20240110063837</lastUpdated>
+    <lastUpdated>20240820155933</lastUpdated>
   </versioning>
 </metadata>
